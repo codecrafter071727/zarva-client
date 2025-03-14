@@ -5,9 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    
     "lint": "eslint .",
-    "preview": "vite preview"
+    "preview": "vite preview",
+     "build": "chmod +x ./node_modules/.bin/* && vite build"
   },
   "dependencies": {
     "@clerk/clerk-react": "^5.22.11",
